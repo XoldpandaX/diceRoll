@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+}
+
+#wrapper {
+    width: 400px;
+    margin: 100px auto;
+}
+
+#dice1, #dice2 {
+    float: left;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background: black;
+    cursor: pointer;
+}
+#dice1:first-child, #dice2:first-child {
+    background: red;
+    margin-right: 70px;
+    margin-left: 60px;
+}
+
+#dice1 span, #dice2 span {
+    position: absolute;
+    background: white;
+    border: 1px solid white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.left{ left: 10px; }
+.right{ right: 10px; }
+
+#dot1 { top: 14px; }
+#dot2 { top: 44px; }
+#dot3 { top: 74px; }
+#dot4 { top: 14px; }
+#dot5 { top: 44px; }
+#dot6 { top: 74px; }
+
+#dot7 {
+    top: 44px;
+    right: 42px;
+    display: none;
+}
+
+#btn {
+    position: absolute;
+    top: 300px;
+    left: 45.5%;
+    background: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;;
+}
+#btn:active {
+    padding: 9px;
+}
